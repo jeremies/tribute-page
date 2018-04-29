@@ -5,197 +5,308 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
+ .timeline {
+	 background-color: #dfc7b2;
+ }
+
  .panel {
 	 max-width: 500px;
 	 margin: auto;
+	 margin-bottom: 20px !important;
+ }
+
+
+.splash {
+  background: url("img/Gandhi_spinning.jpg") no-repeat 70% 20% local;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 0 !important;
+  overflow: hidden;
+  padding-top: 20em !important;
+  padding-bottom: 30em !important;
+  position: relative;
+  text-shadow: 1px 1px 5px rgba(0,0,0,.4);
+  z-index: 9999;
+
+}
+
+  .splash::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #546E7A;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+ .jumbotron h1, .jumbotron p {
+	 padding-left: 30px;
+	 padding-right: 30px;
+ }
+
+ .timeline h2, .timeline > h3 {
+	 text-align: center;
+ }
+
+.timeline > h3 {
+	 margin-bottom: 90px;
+ }
+ .panel-body, .panel-footer {
+	 background-color: #fcf8e3;
+ }
+
+ .panel-footer {
+	 font-size: 17px;
+ }
+
+ .timeline-head {
+	 text-transform: uppercase;
+	 font-weight: 600;
+	 margin-top: 110px;
+ }
+
+ .panel-heading > h3 {
+	 margin-top: 5px;
+	 margin-bottom: 0px;
+ }
+
+ .panel-heading > h4 {
+	 margin-bottom: 5px;
+ }
+
+ .panel-heading {
+	 padding-left: 30px;
+ }
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:  #b29f8e;
+}
+
+ .container-fluid {
+	padding: 60px 50px;
  }
 </style>
 
-<div class="jumbotron">
-	<div class="page-header">
-		<h1 class="text-center">Mahatma Gandhi</h1>
-	</div>
-
-	<img class="img-responsive" src="img/Gandhi_spinning.jpg">
+<div class="jumbotron text-center splash">
+  <h1>Mahatma Gandhi</h1>
+  <p class="lead">The man who led India to independence employing nonviolent civil disobedience</p>
 </div>
 
-<div class="container">
+<div class="container-fluid timeline">
+	<h2 class="timeline-head">Time line</h2>
+	<h3>Short Biography of Gandhi</h3>
 	<div class="panel-group">
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Oct 1869</b> <i>Birth</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Oct 1869<h4>
+				<h3><strong>Birth</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/birth.jpg">
+				<img class="img-responsive" src="img/birth.jpg">
 			</div>
 			<div class="panel-footer">
 				Mohandas Karamchand Gandhi was born in Porbandar.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>May 1883</b> <i>Marriage</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> May 1883<h4>
+				<h3><strong>Marriage</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/marriage.jpg">
+				<img class="img-responsive" src="img/marriage.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi gets married to Kasturbai through an arranged marriage.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Sep 1888</b> <i>Law School</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Sep 1888<h4>
+				<h3><strong>Law School</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/law-school.jpg">
+				<img class="img-responsive" src="img/law-school.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi leaves for England to study law.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Apr 1893</b> <i>South Africa</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Apr 1893<h4>
+				<h3><strong>South Africa</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/south-africa.jpg">
+				<img class="img-responsive" src="img/south-africa.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi goes to South Africa to advise on a lawsuit for a year.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Jul 1907</b> <i>Satyagraha</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Jul 1907<h4>
+				<h3><strong>Satyagraha</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/satyagraha.jpg">
+				<img class="img-responsive" src="img/satyagraha.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi refuses to register to the Boer Republic Transvaal, which was under control by the British.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Jan 1908</b> <i>Gandhi goes to Jail</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Jan 1908<h4>
+				<h3><strong>Gandhi goes to Jail</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/jail.jpg">
+				<img class="img-responsive" src="img/jail.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi gets arrested for refusing to cooperate with the Boer Republic Transvaal and spends two months in prison.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Apr 1919</b> <i>Amritsar Massacre</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Apr 1919<h4>
+				<h3><strong>Amritsar Massacre</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/massacre.jpg">
+				<img class="img-responsive" src="img/massacre.jpg">
 			</div>
 			<div class="panel-footer">
 				British General Dyer commands his troops to slaughter Indians that were peacefully gathered for a festival.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Aug 1920</b> <i>Nonviolent Resistence</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Aug 1920<h4>
+				<h3><strong>Nonviolent Resistence</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/resistence.jpg">
+				<img class="img-responsive" src="img/resistence.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi calls for a period of noncooperation to the British across India. He is later arrested for sedition and spends approximately 2 years in prison.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Jan 1930</b> <i>Declaration of Independence</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Jan 1930<h4>
+				<h3><strong>Declaration of Independence</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/independence.jpg">
+				<img class="img-responsive" src="img/independence.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi published the Declaration of Independence for India from the British.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Mar 1931</b> <i>Salt March</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Mar 1931<h4>
+				<h3><strong>Salt March</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/salt.jpg">
+				<img class="img-responsive" src="img/salt.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi leads people to the sea to collect their own salt because the law forbid Indians to make their own salt and the tax on imported salt was high. About 50,000 people were arrested including Gandhi.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Sep 1932</b> <i>Fasting</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Sep 1932<h4>
+				<h3><strong>Fasting</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/fasting.jpg">
+				<img class="img-responsive" src="img/fasting.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi fasts in prison for 5 days to try to better the treatment of the "untouchables."
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Aug 1942</b> <i>Indian National Congress</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Aug 1942<h4>
+				<h3><strong>Indian National Congress</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/congress.jpg">
+				<img class="img-responsive" src="img/congress.jpg">
 			</div>
 			<div class="panel-footer">
 				The INC declares that it will only support the British War effort in WWII if they return with Indian independence. Gandhi is again imprisoned.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Jun 1944</b> <i>Gandhi visits Muhammed Ali Jinnah</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Jun 1944<h4>
+				<h3><strong>Gandhi visits Muhammed Ali Jinnah</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/muhammed.jpg">
+				<img class="img-responsive" src="img/muhammed.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi tries to make an agreement to keep India whole after independence, but is unsuccessful.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Aug 1947</b> <i>Indian independence</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Aug 1947<h4>
+				<h3><strong>Indian independence</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/indian-independence.jpg">
+				<img class="img-responsive" src="img/indian-independence.jpg">
 			</div>
 			<div class="panel-footer">
 				India is officially independent, but is separated into two countries, Pakistan and India.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Sep 1947</b> <i>Fighting between Hindus and Muslims</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Sep 1947<h4>
+				<h3><strong>Fighting between Hindus and Muslims</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/fighting.jpg">
+				<img class="img-responsive" src="img/fighting.jpg">
 			</div>
 			<div class="panel-footer">
 				Hindus and Muslims cause chaos and murders. Hindus migrate to India and Muslims migrate to Pakistan.
 			</div>
 		</div>
-		<div class="panel panel-primary">
+		<div class="panel panel-warning">
 			<div class="panel-heading">
-				<h3><b>Jan 1948</b> <i>Gandhi's Death</i></h3>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Jan 1948<h4>
+				<h3><strong>Gandhi's Death</strong></h3>
 			</div>
 			<div class="panel-body">
-				<img class="img-thumbnail" src="img/death.jpg">
+				<img class="img-responsive" src="img/death.jpg">
 			</div>
 			<div class="panel-footer">
 				Gandhi is assassinated by Nathuram Vinayuk Godse, a Hindu nationalist. Nearly a million people attended his funeral.
 			</div>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<blockquote>
+				<p>"When I despair, I remember that all through history the way of truth and love have always won. There have been tyrants and murderers, and for a time, they can seem invincible, but in the end, they always fall. Think of it--always."</p>
+				<footer>Mahatma Gandhi</footer>
+			</blockquote>
+		</div>
+	</div>
 </div>
+
+<footer class="container-fluid text-center">
+	<a href="#myPage" title="To Top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+	<p>Written and coded by <a href="https://www.freecodecamp.org/jeremies">Joaquim Monserrat</a></p>
+</footer>
