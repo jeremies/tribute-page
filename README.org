@@ -1,0 +1,26 @@
+* Tribute page
+A Mahatma Gandhi tribute page.
+
+https://jeremies.github.io/tribute-page
+
+It is a tribute page as a [[https://www.freecodecamp.org/challenges/build-a-tribute-page][Free Code Camp front-end project]] where I
+show a timeline and some quotes of Gandhi. 
+** Made using
+- [[https://developer.mozilla.org/es/docs/HTML/HTML5][HTML5 - HTML | MDN]]
+- [[https://developer.mozilla.org/es/docs/Web/CSS/CSS3][CSS3 - CSS | MDN]]
+- [[https://getbootstrap.com/][Bootstrap · The most popular HTML, CSS, and JS library in the world.]]
+- [[https://pages.github.com/][GitHub Pages | Websites for you and your projects, hosted directly
+  from your GitHub repository. Just edit, push, and your changes are
+  live.]]
+** Some features
+- Thanks to bootstrap it is responsive page.
+- In mobile phones screens the jumbotron background image is centered
+  to the Gandhi figure automatically.
+- At the end of the page there is a carousel where you can find quotes
+  of Gandhi.
+** References
+- [[https://codepen.io/tag/jumbotron/#][Pens tagged 'jumbotron' on CodePen]]
+- [[https://stackoverflow.com/questions/30938359/background-image-with-focal-point][css - Background image with focal point - Stack Overflow]]
+- [[https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp][W3Schools - Bootstrap Theme "Company"]]
+- [[https://www.w3schools.com/Css/css_rwd_images.asp][W3Schools - Responsive Web Design Images]]
+- [[https://www.w3schools.com/bootstrap/bootstrap_carousel.asp][W3Schools - Bootstrap Carousel]]
